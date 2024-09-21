@@ -1,0 +1,50 @@
+.therapist-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header img {
+    width: 100%;
+    border-radius: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-body h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card-body p {
+    margin: 5px 0;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-footer button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card-footer button:hover {
+    background-color: #45a049;
+  }
+  

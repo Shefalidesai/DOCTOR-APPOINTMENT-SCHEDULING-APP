@@ -1,0 +1,49 @@
+
+  
+  .about-me, .testimonials, .booking {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+  }
+  
+  .about-me h2, .testimonials h3, .booking h2 {
+    margin-bottom: 15px;
+  }
+  
+  .about-me .details .item, .booking .options button, .session-duration button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f4f4f9;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .options button, .session-duration button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #8bc34a;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  blockquote {
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+  
+  .confirm {
+    background-color: #8bc34a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  

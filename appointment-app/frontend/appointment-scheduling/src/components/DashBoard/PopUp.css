@@ -1,0 +1,53 @@
+.image-container {
+    position: relative;
+    width: 600px; /* Adjust as per your image size */
+    height: 400px; /* Adjust as per your image size */
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .popup {
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.5s ease; /* Fade transition */  
+  }
+  
+  .show {
+    opacity: 1; /* Show popup */
+  }
+  
+  .hide {
+    opacity: 0; /* Hide popup */
+  }
+  
+  .popup:nth-child(2) {
+    top: 10px;
+    left: 30px;
+    transform: rotate(-20deg); /* Adjust the degree to tilt more or less */
+    transform-origin: center;
+  }
+  
+  .popup:nth-child(3) {
+    top: 10px;
+    right: 50px;
+    transform: rotate(20deg); /* Adjust the degree to tilt more or less */
+    transform-origin: center;
+  }
+  
+  .popup:nth-child(4) {
+    top: 2px;
+    left: 220px;
+   /* transform: rotate(-20deg); /* Adjust the degree to tilt more or less */
+    transform-origin: center;
+  }
+  
